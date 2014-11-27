@@ -93,7 +93,7 @@ public class MainActivity extends ActionBarActivity {
             ApiWrapper wrapper = new ApiWrapper("a55a47809ea1931beefc46c39bbba83f", "524bb61f08a3870bd9e45fe851de9126", null, null);
             Token token = null;
             try {
-                token = wrapper.login("okuklina@hotmail.com", "we2inbada", Token.SCOPE_NON_EXPIRING);
+                token = wrapper.login("okuklina@hotmail.com", "*******", Token.SCOPE_NON_EXPIRING);
 
                 //HttpResponse resp = wrapper.get(Request.to("/me"));
             } catch (IOException e) {
